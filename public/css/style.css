@@ -279,6 +279,94 @@ a.btn {
 }
 /* home */
 
+/* profile */
+.genral-infor {
+    border-radius: 4px;
+    border: 0.75px solid rgba(37, 46, 74, 0.10);
+    background: #FFF;
+    padding: 30px;
+    margin-top: 20px;
+}
+.genral-infor h6 {
+    color: var(--Text-Primary, #252E4A);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.profile-creation {
+    padding: 30px 0 40px;
+}
+.profile-update {
+    margin-right: 16px;
+}
+.admin-profile h6 {
+    color: #699765;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background: rgba(105, 151, 101, 0.16);
+    padding: 6px;
+    width: fit-content;
+    margin-bottom: 12px;
+}
+.admin-profile p {
+    color: var(--Text-Primary, #252E4A);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 18px;
+}
+.login-name {
+    position: relative;
+    width: 340px;
+}
+.login-name label {
+    color: var(--Input-field-header, #767A7A);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    padding-bottom: 16px;
+}
+input#fname {
+    border-radius: 6px;
+    border: 1px solid var(--Default-input-stroke, #DEDEDE);
+    background: var(--Input-default, rgba(222, 222, 222, 0.10));
+    padding: 13px 20px;
+    width: 340px;
+}
+span.error-text {
+    color: red;
+    margin-top: 10px;
+}
+
+.profile-edit-btn {
+    border-radius: 4px;
+    background: var(--Primary, #3282C4);
+    width: fit-content;
+    padding: 10px 24px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 30px 0;
+}
+a.btn.re-submit {
+  padding: 0;
+}
+a.btn.cancel {
+  border-radius: 4px;
+  border: 1px solid var(--Primary, #3282C4);
+  color: #3282C4;
+}
+a.btn.save {
+  border-radius: 4px;
+  background: var(--Primary, #3282C4);
+  color: #fff;
+  margin-left: 16px;
+}
+/* profile */
+
 
 @media only screen and (max-width: 1160px) {
   body{

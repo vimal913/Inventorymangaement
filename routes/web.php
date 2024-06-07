@@ -28,8 +28,10 @@ Route::group(['prefix' => 'user'], function ()
         Route::post('changepasswordstore', [App\Http\Controllers\userController::class, 'changepasswordStore'])->name('changepasswordstore');
 
         Route::get('logout', [App\Http\Controllers\userController::class, 'logout'])->name('logout');
+        Route::get('profile', [App\Http\Controllers\userController::class, 'profile'])->name('Profile');
         Route::group(['middleware' => ['user']], function ()
         {
             Route::get('home', [App\Http\Controllers\InventoryController::class, 'home'])->name('Home');
+            // Route::get('profile', [App\Http\Controllers\userController::class, 'profile'])->name('Profile');
         });
     });

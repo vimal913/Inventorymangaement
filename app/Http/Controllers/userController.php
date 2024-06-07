@@ -134,6 +134,10 @@ class userController extends Controller
         return redirect('/user/login');
 
     }
+    public function profile(){
+        return view('user.profile');
+    }
+
     public function logout(Request $request)
     {
         $user = Auth::user();
